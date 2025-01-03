@@ -9,10 +9,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.seryjnyy.shadcnuisnippets.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <defaultLiveTemplates file="/liveTemplates/Shadcn.xml"/>
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.seryjnyy.shadcnuisnippets.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
 </idea-plugin>
