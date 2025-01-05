@@ -9,7 +9,16 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <defaultLiveTemplates file="/liveTemplates/Shadcn.xml"/>
+        <defaultLiveTemplates file="/liveTemplates/shadcn-ui-usage-snippets.xml"/>
+        <defaultLiveTemplates file="/liveTemplates/shadcn-ui-import-snippets.xml"/>
     </extensions>
 
 </idea-plugin>
+
+
+
+
+
+
+
+
